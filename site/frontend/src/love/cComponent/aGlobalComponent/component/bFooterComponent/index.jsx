@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function FooterComponent({ Redux }) {
   return (
     Redux?.state?.RequiredObject?.Loading ? null :
-    <footer className="bg-[#ed6f63] dark:bg-[#2D2926] text-[#2D2926] dark:text-[#ed6f63]">
+    <footer className="bg-[#DBB98F] dark:bg-[#96351F] text-[#96351F] dark:text-[#DBB98F]">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <Link to={FinalRouteName.GlobalRoute.HomeRoute} className="flex title-font font-medium items-center mb-4 md:mb-0">
           <img className="w-10 h-10 object-cover object-center rounded" alt="hero" src={brand().logo} />

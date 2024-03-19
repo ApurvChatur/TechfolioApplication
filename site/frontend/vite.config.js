@@ -12,8 +12,8 @@ export default defineConfig({
         "name":"Techfolio Firm",
         "short_name":"Techfolio",
         "display": "standalone",
-        "background_color": "#2D2926",
-        "theme_color": "#2D2926",
+        "background_color": "#96351F",
+        "theme_color": "#96351F",
         "icons":[
           {
             src: "Business/Techfolio/favicon_io/android-chrome-512x512.png",
