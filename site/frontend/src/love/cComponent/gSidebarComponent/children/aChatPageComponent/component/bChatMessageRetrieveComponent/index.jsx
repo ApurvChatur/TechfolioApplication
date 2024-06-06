@@ -123,11 +123,11 @@ const ChatMessageRetrieveComponent = ({ Redux, ReduxUltimate, socket, APICalls }
       <Card 
         className={`
           rounded-none border-none
-          bg-[#ADEFD1] dark:bg-[#00203F]
-          border-[#00203F] dark:border-[#ADEFD1]
-          text-[#00203F] dark:text-[#ADEFD1]`}
+          bg-[#DBB98F] dark:bg-[#96351F]
+          border-[#96351F] dark:border-[#DBB98F]
+          text-[#96351F] dark:text-[#DBB98F]`}
       >
-        <CardHeader className="flex flex-row items-center justify-between py-2 border-b border-[#00203F] dark:border-[#ADEFD1]">
+        <CardHeader className="flex flex-row items-center justify-between py-2 border-b border-[#96351F] dark:border-[#DBB98F]">
           <div className="flex items-center space-x-4">
             <Avatar>
               <AvatarImage src={
@@ -166,12 +166,12 @@ const ChatMessageRetrieveComponent = ({ Redux, ReduxUltimate, socket, APICalls }
           </CardContent>
         </ScrollArea>
 
-        <CardFooter className="py-2 border-y border-[#00203F] dark:border-[#ADEFD1] bottom-0">
+        <CardFooter className="py-2 border-y border-[#96351F] dark:border-[#DBB98F] bottom-0">
           <form className="flex w-full items-center space-x-2">
             <Input
               id="message"
               placeholder="Type your message..."
-              className="flex-1 border-[#00203F] dark:border-[#ADEFD1]"
+              className="flex-1 border-[#96351F] dark:border-[#DBB98F]"
               autoComplete="off"
               value={input}
               onChange={(event) => setInput(event.target.value)}
